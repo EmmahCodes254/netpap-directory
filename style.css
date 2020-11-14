@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50vh;
+  background: url(/assets/undraw_location_search_bqps.svg);
+  background-size: cover;
+}
+ .form-group{
+   background: #e7e3e3;
+   display: flex;
+   padding: 10px;
+   width: 800px;
+   height: 50px;
+   border-radius: 30px;
+   margin: auto; 
+ }
+ @media (min-width: 576px) {  
+ .form-group{
+   min-width: 300px;
+ }
+ }
+ 
+ .dropdown{
+   position: relative;
+   width: 150px;
+   padding-left: 5px;
+   color: #3a3a3a;
+   /*border-right: 2px solid #f57168;*/
+   cursor: pointer;
+ }
+ .dropdown::before{
+   content: "";
+   border-width: 6px 6px 0 6px;
+   border-style: solid;
+   border-color: #1d1d1d transparent;
+   position: absolute;
+   right: 20px;
+   top: 50%;
+   }
+ .default-option{
+   padding: 6px 30px;
+ }
+ .dropdown-list ul{
+   list-style: none;
+   background-color: #e7e3e3;
+   position: absolute;
+  color: #696969;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 150px;
+  display: none;
+ }
+ .dropdown-list ul.active{
+   display: block;
+ }
+ .search{
+   width: 600px;
+   height: 100%;
+ }
+ .search-input{
+   width: 100%;
+   height: 100%;
+   border: 0;
+   outline: none;
+   padding: 0 10px;
+ }
+ .btn{
+   width: 50px;
+   height: 100%;
+   border: none;
+   cursor: pointer;
+ }
+ .btn .fa-search{
+     font-size: 22px;
+     color: teal;
+ }
+ .btn .fa-search:hover{
+   font-size: 24px;
+   color: #035757;
+}
+.card-title{
+    color: teal;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+}
+.fa{
+    color: teal;
+    padding-right: 14px;
+}
+.card-link{
+  color: #16a6df;
+  text-decoration: none;
+}
+.card-link:hover{
+  color: #035757;
+}
