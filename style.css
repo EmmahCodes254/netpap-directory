@@ -18,11 +18,7 @@ body{
    border-radius: 30px;
    margin: auto; 
  }
- @media (min-width: 576px) {  
- .form-group{
-   min-width: 300px;
- }
- }
+
  
  .dropdown{
    position: relative;
@@ -101,4 +97,62 @@ body{
 }
 .card-link:hover{
   color: #035757;
+}
+
+/*Extra small devices(phones, 600px and down)*/
+@media only screen and (max-width:600px){
+  .wrap{
+    height: 15vh;
+  }
+   .form-group{
+     background: #e7e3e3;
+     display: flex;
+     padding: 10px;
+     width: auto;
+   }
+   .card-img{
+     height: 300px;
+   }
+   .card{
+    margin-bottom: 200px;
+   }
+}
+/*small devices(potrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width:600px){
+  .wrap{
+    height: 20vh;
+  }
+   .form-group{
+     width: auto;
+   }
+   .card-img{
+     height: 300px;
+   }
+   .card{
+    margin-bottom: 200px;
+   }
+}
+/*Medium devices(landscape tablets, 768px and up)*/
+/*@media only screen and (min-width:768px){
+  .wrap{
+    height: 20vh;
+  }
+   .form-group{
+     width: 520px;
+   }
+   .card-img{
+    width: 130px;
+   }
+   .card{
+    margin-bottom: 200px;
+   }
+}*/
+/*Extra large devices(large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width:768px){
+  .wrap{
+    height: 50vh;
+  }
+   .form-group{
+     width: 800px;
+   }  
 }
