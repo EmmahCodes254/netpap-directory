@@ -18,8 +18,6 @@ body{
    border-radius: 30px;
    margin: auto; 
  }
-
- 
  .dropdown{
    position: relative;
    width: 150px;
@@ -79,6 +77,18 @@ body{
    font-size: 24px;
    color: #035757;
 }
+
+.card{
+  background: #e5ebf2 !important;
+  width: 18rem;
+  display: flex !important;
+  justify-content: center!important;
+  align-items: center !important;
+  margin-left: 10px;
+}
+.card-img{
+  height: 10rem;
+}
 .card-title{
     color: teal;
     font-size: 1.3rem;
@@ -108,13 +118,14 @@ body{
      background: #e7e3e3;
      display: flex;
      padding: 10px;
-     width: auto;
+     width: 550px;
    }
    .card-img{
      height: 300px;
    }
    .card{
-    margin-bottom: 200px;
+    margin-bottom: 20px;
+    width: auto;
    }
 }
 /*small devices(potrait tablets and large phones, 600px and up)*/
@@ -155,4 +166,8 @@ body{
    .form-group{
      width: 800px;
    }  
+   .card{
+    margin-bottom: 20px;
+    width: auto;
+   }
 }
