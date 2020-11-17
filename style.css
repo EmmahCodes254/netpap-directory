@@ -118,7 +118,7 @@ body{
      background: #e7e3e3;
      display: flex;
      padding: 10px;
-     width: 550px;
+     width: auto;
    }
    .card-img{
      height: 300px;
@@ -149,8 +149,12 @@ body{
 @media only screen and (min-width:768px){
   .wrap{
     height: 20vh;
+    width: auto;
   }
    .form-group{
+     width: auto;
+   }
+   .card{
      width: auto;
    }
 }
