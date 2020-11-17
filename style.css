@@ -131,7 +131,8 @@ body{
 /*small devices(potrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width:600px){
   .wrap{
-    height: 20vh;
+    height: 30vh;
+    width: 600px;
   }
    .form-group{
      width: auto;
@@ -140,18 +141,20 @@ body{
      height: 300px;
    }
    .card{
-    margin-bottom: 200px;
+    margin-bottom: 20px;
+    width: auto;
    }
 }
 /*Medium devices(landscape tablets, 768px and up)*/
-/*@media only screen and (min-width:768px){
+@media only screen and (min-width:768px){
   .wrap{
     height: 20vh;
   }
    .form-group{
-     width: 520px;
+     width: auto;
    }
-   .card-img{
+}
+   /*.card-img{
     width: 130px;
    }
    .card{
